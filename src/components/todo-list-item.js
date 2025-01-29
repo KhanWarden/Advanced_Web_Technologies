@@ -6,9 +6,6 @@ const TodoListItem = ({ label, important = false}) => {
   };
 
   return <span style={ style }>{ label }</span>
-
-  //props argument in TodoListItem
-  //return <span>{ props.label }</span>
 }
 
 export default TodoListItem;
